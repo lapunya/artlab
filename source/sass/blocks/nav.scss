@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  width: 64.2%;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__item {
+  padding: 15px 15px;
+  margin-right: 45px;
+
+  &--active {
+    background-color: #1cac4e;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__link {
+  font-size: 21px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.nav__contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav__phone {
+  margin-right: 16px;
+}

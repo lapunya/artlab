@@ -1,0 +1,17 @@
+.header {
+  background-color: transparent;
+}
+
+.header__container {
+  width: 93%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 46px;
+  padding-right: 26px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+}

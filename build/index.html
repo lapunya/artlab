@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Данный сайт поможет Вам ознакомиться с услугами ArtLab">
-    <title>ArtLab</title>
-    <link rel="stylesheet" href="css/style.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Данный сайт поможет Вам ознакомиться с услугами ArtLab">
+  <title>ArtLab</title>
+  <link rel="preload" href="fonts/opensans300.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensans300.woff" as="font" type="font/woff" crossorigin="">
+  <link rel="preload" href="fonts/opensans300italic.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensans300italic.woff" as="font" type="font/woff" crossorigin="">
+  <link rel="preload" href="fonts/opensans400.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensans400.woff" as="font" type="font/woff" crossorigin="">
+  <link rel="preload" href="fonts/opensans700.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensans700.woff" as="font" type="font/woff" crossorigin="">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    <h1>Are we gonna party tonight биач?</h1>
+  <header class="header">
+    <div class="header__container">
+      <a class="header__link" aria-label="Ссылка на главную страницу">
+        <svg class="header__logo" width="124" height="113">
+          <use xlink:href="img/sprite.svg#logo-main"></use>
+        </svg>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--active">
+            <a class="nav__link">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">О нас</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Тарифы</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <div class="nav__contacts">
+          <a class="nav__phone" href="tel:88005555555" aria-label="Позвонить в ArtLab">
+            <svg width="32" height="32">
+              <use xlink:href="img/sprite.svg#logo-phone"></use>
+            </svg>
+          </a>
+          <a class="nav__email" href="mailto:artlab@mail.ru" aria-label="Написать в ArtLab">
+            <svg width="30" height="22">
+              <use xlink:href="img/sprite.svg#logo-email"></use>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="intro">
+
+    </section>
+  </main>
 </body>
+
 </html>
