@@ -5,6 +5,57 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: -159px;
+  padding-top: 172px;
   position: relative;
-  z-index: -1;
+}
+
+.intro__container {
+  width: 93%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.stacked-cards {
+  width: 978px;
+  position: relative;
+}
+
+.intro__list {
+  width: 978px;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.intro__item {
+  cursor: pointer;
+  width: 30.2%;
+  position: absolute;
+  left: 50%;
+  transition: 0.5s ease transform;
+
+  &::after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.intro__item.active:after {
+  display: none;
+}
+.intro__item img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  z-index: 4;
+}
+.intro__item.active {
+  cursor: default;
+  transition: 0.5s ease transform;
 }
