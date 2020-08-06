@@ -76,7 +76,7 @@ body {
   max-width: 1240px;
   margin: 0 auto;
   padding-top: 46px;
-  padding-right: 26px;
+  padding-right: 1.4%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +85,18 @@ body {
           align-items: center; }
 
 .header__logo {
-  display: block; }
+  display: block;
+  width: 124px;
+  height: 113px; }
+
+@media (max-width: 1199px) {
+  .header__container {
+    width: 95%;
+    padding-top: 30px;
+    background-color: tomato; }
+  .header__logo {
+    width: 110px;
+    height: auto; } }
 
 .nav {
   display: -webkit-box;
@@ -98,6 +109,7 @@ body {
   width: 64.2%; }
 
 .nav__list {
+  max-width: 615px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -109,7 +121,7 @@ body {
 
 .nav__item {
   padding: 15px 15px;
-  margin-right: 45px; }
+  margin-right: 35px; }
   .nav__item--active {
     background-color: #1cac4e; }
   .nav__item:last-child {
@@ -135,6 +147,17 @@ body {
 .nav__phone {
   margin-right: 16px; }
 
+@media (max-width: 1199px) {
+  .nav {
+    width: 75%; }
+  .nav__list {
+    width: 80%; }
+  .nav__item {
+    padding: 10px;
+    margin-right: 3%; }
+  .nav__link {
+    font-size: 18px; } }
+
 .main {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
@@ -142,7 +165,6 @@ body {
 
 .intro {
   width: 100%;
-  height: 681px;
   background-image: url("../img/intro-back.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -157,6 +179,7 @@ body {
 
 .stacked-cards {
   width: 978px;
+  margin: 0 auto;
   position: relative; }
 
 .intro__list {
@@ -169,6 +192,7 @@ body {
 .intro__item {
   cursor: pointer;
   width: 30.2%;
+  height: 512px;
   position: absolute;
   left: 50%;
   -webkit-transition: 0.5s ease transform;
@@ -187,11 +211,16 @@ body {
 .intro__item img {
   position: relative;
   display: block;
+  width: 100%;
   max-width: 100%;
-  height: auto;
   z-index: 4; }
 
 .intro__item.active {
   cursor: default;
   -webkit-transition: 0.5s ease transform;
-  transition: 0.5s ease transform; }
+  transition: 0.5s ease transform;
+  height: 512px; }
+
+@media (max-width: 1199px) {
+  .intro {
+    display: none; } }

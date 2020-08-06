@@ -8,11 +8,26 @@
   max-width: 1240px;
   margin: 0 auto;
   padding-top: 46px;
-  padding-right: 26px;
+  padding-right: 1.4%;
   display: flex;
   align-items: center;
 }
 
 .header__logo {
   display: block;
+  width: 124px;
+  height: 113px;
+}
+
+@media (max-width: $tablet-width) {
+  .header__container {
+    width: 95%;
+    padding-top: 30px;
+    background-color: tomato;
+  }
+
+  .header__logo {
+    width: 110px;
+    height: auto;
+  }
 }

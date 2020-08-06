@@ -6,6 +6,7 @@
 }
 
 .nav__list {
+  max-width: 615px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -15,7 +16,7 @@
 
 .nav__item {
   padding: 15px 15px;
-  margin-right: 45px;
+  margin-right: 35px;
 
   &--active {
     background-color: #1cac4e;
@@ -43,4 +44,24 @@
 
 .nav__phone {
   margin-right: 16px;
+}
+
+@media (max-width: $tablet-width) {
+  .nav {
+    width: 75%;
+  }
+
+  .nav__list {
+    width: 80%;
+  }
+
+  .nav__item {
+    padding: 10px;
+    margin-right: 3%;
+  }
+
+  .nav__link {
+    font-size: 18px;
+  }
+
 }
