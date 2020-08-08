@@ -31,3 +31,20 @@
     height: auto;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .header__container {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 3%;
+    padding-left: 3%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .header__logo {
+    width: 70px;
+    height: auto;
+  }
+}

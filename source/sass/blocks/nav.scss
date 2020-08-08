@@ -5,6 +5,10 @@
   width: 64.2%;
 }
 
+.nav__toggle {
+  display: none;
+}
+
 .nav__list {
   max-width: 615px;
   list-style: none;
@@ -64,4 +68,94 @@
     font-size: 18px;
   }
 
+}
+
+@media (max-width: $mobile-width) {
+  .nav__toggle {
+    width: 24px;
+    height: 18px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/menu-burger.svg");
+    background-repeat: no-repeat;
+    background-size: 24px 18px;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: -44px;
+    right: 0;
+  }
+
+  .nav__list {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .nav--nojs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+  }
+
+  .nav--nojs .nav__list {
+    display: flex;
+  }
+
+  .nav--nojs .nav__toggle {
+    display: none;
+  }
+
+  .nav--opened {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+  }
+
+  .nav--opened .nav__list {
+    display: flex;
+  }
+
+  .nav--opened .nav__toggle {
+    background-image: url("../img/menu-cross.svg");
+    background-size: 100%;
+  }
+
+  .nav__item {
+    margin-right: 0;
+  }
+
+  .nav__contacts {
+    margin-left: auto;
+    margin-top: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav--closed {
+    position: relative;
+  }
+
+  .nav--closed .nav__contacts {
+    display: none;
+  }
+
+  .nav__phone {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }

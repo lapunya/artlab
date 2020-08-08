@@ -14,53 +14,50 @@
   margin: 0 auto;
 }
 
-.stacked-cards {
-  width: 978px;
-  margin: 0 auto;
-  position: relative;
-}
-
 .intro__list {
-  width: 978px;
-  position: relative;
   list-style: none;
-  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  width: 977px;
   margin: 0 auto;
+  padding: 0;
+  position: relative;
 }
 
 .intro__item {
-  cursor: pointer;
-  width: 30.2%;
-  height: 512px;
   position: absolute;
-  left: 50%;
-  transition: 0.5s ease transform;
+  transform: translateX(-50%);
 
-  &::after {
-    bottom: 0;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+  &:nth-child(1) {
+    z-index: 1;
+    left: 15.5%;
+  }
+
+  &:nth-child(2) {
+    z-index: 2;
+    left: 33%;
+  }
+
+  &:nth-child(3) {
+    position: relative;
+    z-index: 3;
+    left: 50%;
+  }
+
+  &:nth-child(4) {
+    z-index: 2;
+    left: 67%;
+  }
+  &:nth-child(5) {
+    z-index: 1;
+    left: 84.5%;
   }
 }
 
-.intro__item.active:after {
-  display: none;
-}
 .intro__item img {
-  position: relative;
   display: block;
-  width: 100%;
-  max-width: 100%;
-  z-index: 4;
 }
-.intro__item.active {
-  cursor: default;
-  transition: 0.5s ease transform;
-  height: 512px;
-}
+
 
 @media (max-width: $tablet-width) {
   .intro {
