@@ -1,0 +1,137 @@
+.tariffs__container {
+  width: 93%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #1cac4e;
+    position: absolute;
+    left: 0;
+    top: 33.3%;
+    display: none;
+  }
+}
+
+.tariffs__main-title {
+  font-size: 42px;
+  line-height: 33px;
+  font-weight: 400;
+  font-style: normal;
+  color: #4f4f4f;
+  width: 80%;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tariffs__main-description {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 300;
+  font-style: normal;
+  color: #4f4f4f;
+  letter-spacing: 0.4px;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 99px;
+}
+
+.tariffs__main-list {
+  list-style: none;
+  width: 992px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tariffs__main-item {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tariffs__item-title {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 300;
+  font-style: normal;
+  color: #4f4f4f;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 23px;
+
+  & b {
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  &--country {
+    margin-bottom: 45px;
+  }
+
+  &--planet {
+    margin-bottom: 38px;
+  }
+}
+
+.tariffs__item-description {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 300;
+  font-style: normal;
+  color: #4f4f4f;
+  text-transform: lowercase;
+  margin-bottom: 44px;
+}
+
+.tariffs__logo {
+  margin-bottom: 49px;
+
+  &--country {
+    margin-bottom: 18px;
+  }
+}
+
+.tariffs__services-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.tariffs__services-item {
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 300;
+  font-style: normal;
+  color: #4f4f4f;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 10px;
+    height: 9px;
+    background-image: url("../img/item.svg");
+    background-repeat: no-repeat;
+    background-size: 10px 9px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+  }
+}
