@@ -1,0 +1,38 @@
+.quote {
+  background: radial-gradient(#d7f4e2, #ceddd6);
+}
+
+.quote__container {
+  width: 93%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 42px;
+  padding-bottom: 38px;
+}
+
+.quote__box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.quote__text {
+  font-size: 34px;
+  line-height: 30px;
+  font-weight: 300;
+  font-style: italic;
+  color: #4f4f4f;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.quote__author {
+  font-size: 21px;
+  line-height: 20px;
+  font-weight: 300;
+  font-style: normal;
+  color: #4f4f4f;
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
