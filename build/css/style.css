@@ -588,12 +588,107 @@ body {
 .projects__container {
   width: 93%;
   max-width: 1240px;
-  margin: 0 auto; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 117px;
+  position: relative; }
+  .projects__container::before {
+    content: "";
+    width: 46px;
+    height: 38px;
+    background-image: url("../img/matrix.png");
+    background-repeat: no-repeat;
+    background-size: 46px 38px;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: 54px;
+    left: 50%; }
 
 .projects__title {
   font-size: 42px;
-  line-height: 30px;
+  line-height: 42px;
   font-weight: 400;
   font-style: normal;
   color: #4f4f4f;
-  margin: 0; }
+  width: 80%;
+  margin: 0;
+  margin-bottom: 16px;
+  text-align: center; }
+
+.projects__text {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 300;
+  font-style: normal;
+  color: #4f4f4f;
+  width: 80%;
+  margin-bottom: 63px;
+  text-align: center;
+  letter-spacing: 0.5px; }
+
+.projects__list {
+  list-style: none;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.projects__item {
+  width: 262px;
+  padding-bottom: 17px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.projects__item img {
+  width: 262px;
+  height: 343px;
+  margin-bottom: 25px; }
+
+.projects__item-title {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  color: #4f4f4f;
+  margin: 0;
+  margin-bottom: 7px;
+  width: 80%;
+  text-align: center; }
+
+.projects__description {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
+  font-style: normal;
+  color: #808080;
+  width: 91%;
+  margin-bottom: 25px;
+  text-align: center; }
+
+.projects__link:hover svg {
+  opacity: 0.6; }
+
+.projects__link:active svg {
+  opacity: 0.3; }
