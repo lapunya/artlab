@@ -11,7 +11,7 @@
 }
 
 .quote__box {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -23,6 +23,7 @@
   color: #4f4f4f;
   margin: 0;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .quote__author {
@@ -35,4 +36,25 @@
   width: 50%;
   text-align: center;
   margin: 0 auto;
+}
+
+@media (max-width: $tablet-width) {
+  .quote__container {
+    width: 95%;
+    padding-top: 32px;
+    padding-bottom: 30px;
+  }
+
+  .quote__box {
+    width: 100%;
+  }
+
+  .quote__text {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .quote__author {
+    font-size: 18px;
+  }
 }

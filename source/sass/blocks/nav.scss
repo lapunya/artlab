@@ -38,6 +38,14 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .nav__contacts {
@@ -48,6 +56,25 @@
 
 .nav__phone {
   margin-right: 16px;
+
+  & svg:hover {
+    opacity: 0.6;
+  }
+
+  & svg:active {
+    opacity: 0.3;
+  }
+}
+
+.nav__email {
+
+  & svg:hover {
+    opacity: 0.6;
+  }
+
+  & svg:active {
+    opacity: 0.3;
+  }
 }
 
 @media (max-width: $tablet-width) {

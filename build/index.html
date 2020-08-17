@@ -166,7 +166,10 @@
         <span class="projects__text">Здесь всё, чем мы живем :)</span>
         <ul class="projects__list">
           <li class="projects__item">
-            <img src="img/project.jpg" width="262" height="343" alt="Пример проекта">
+            <picture>
+              <source srcset="img/project-tablet.jpg" media="(max-width:1199px)">
+              <img src="img/project.jpg" width="262" height="343" alt="Пример проекта">
+            </picture>
             <h3 class="projects__item-title">Крастер</h3>
             <span class="projects__description">Интернет банк</span>
             <a class="projects__link" href="#" aria-label="Ссылка на проект">
@@ -176,7 +179,10 @@
             </a>
           </li>
           <li class="projects__item">
-            <img src="img/project.jpg" width="262" height="343" alt="Пример проекта">
+            <picture>
+              <source srcset="img/project-tablet.jpg" media="(max-width:1199px)">
+              <img src="img/project.jpg" width="262" height="343" alt="Пример проекта">
+            </picture>
             <h3 class="projects__item-title">Крастер</h3>
             <span class="projects__description">Интернет банк</span>
             <a class="projects__link" href="#" aria-label="Ссылка на проект">
@@ -186,7 +192,10 @@
             </a>
           </li>
           <li class="projects__item">
-            <img src="img/project.jpg" width="262" height="343" alt="Пример проекта">
+            <picture>
+              <source srcset="img/project-tablet.jpg" media="(max-width:1199px)">
+              <img src="img/project.jpg" width="262" height="343" alt="Пример проекта">
+            </picture>
             <h3 class="projects__item-title">Крастер</h3>
             <span class="projects__description">Интернет банк</span>
             <a class="projects__link" href="#" aria-label="Ссылка на проект">
@@ -232,8 +241,10 @@
   <footer class="footer">
     <div class="footer__container">
       <span class="footer__text">сделано в <b>artlab</b></span>
-      <img src="" alt="">
-      <a class="footer__link" href="">www.<b>artlab</b>.ws</a>
+      <svg class="footer__logo" width="33" height="30">
+        <use xlink:href="img/sprite.svg#logo-footer"></use>
+      </svg>
+      <a class="footer__link" href="#">www.<b>artlab</b>.ws</a>
     </div>
   </footer>
   <script src="js/main.min.js"></script>

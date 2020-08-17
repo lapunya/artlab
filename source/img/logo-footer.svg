@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="30" viewBox="0 0 33 30">
+  <defs>
+    <style>
+      .cls-1 {
+        mix-blend-mode: lighten;
+      }
+    </style>
+  </defs>
+  <image id="LOGO_copy" data-name="LOGO copy" class="cls-1" width="33" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAAEuklEQVRIic1WSyj0bRQ/xhiMu5GGhTDl1iAm9YqI2FjIwm0loqSUQi4pWSgLSooVUjIusXBJLEhuCzKUJOV+a9wSH4ZxO1/nxHzGf+btfRcfzuY/85zznOf3P+f3/M7fAhH/AQApACB8vYkAYF8MABIAsPwGAO9mQ0hevhEAmV70zQDILH4CCBCbc2xubsLQ0BAEBgZCYmIiSCQSg+/x8REmJydBo9EY1sPDwyEhIYF/IyLMzc3B/Pw8iMVisLCwgOfnZ45NTk4GhUJhfBgi3qEJKysrQ2tra/T19cWDgwOjgKurK8zOzkYrKyt8u1Uok8mwvr4e9Xo9x5SWlvK6WCxGGxsbFIlE/HtwcPDzYXsmQWxvb6NKpeJNlKizsxNfX18N/uvra0xNTUU3NzdOOjExgV5eXujh4YFHR0ccs7Ozw+s5OTkMoLa2FpeWlvDi4kIAwiQnpqamYGVlBWpqaiA0NBTa29vh7u7OKIZKbGVlBXK5HLy9vUEqlcLT0xO8vr6y38fHB+Lj48HPz49bEhYWBiqVCmQymeA8AYj7+3sYGRkBFxcXSEtLg+joaJienoaNjQ2jOFtbW9BqtcwDpVIJJycnUFJSAu7u7oYYAkTAiCPECXMmALG8vMyEur6+htzcXBgbG+P13t5eozhKTkCDgoJAr9dDVlYWVFRUgLW1tcmjqHJ/BIISj4+Pw8XFBd8K2kildnR0BLVazW8Lb+yn9lArGhsbITY2FgYGBmB2dlZwwMvLC+el5x+BODw8hMHBQfD394e+vj6YmZnhq5iXl8fA3qtCRm9MraPeV1VVwcPDA1RWVsLx8bEhhsASH4gvv6uEkU44ODhAcXEx+Pr6QkBAgGG9qKiISUVVIaOkhYWFcH5+DnZ2dsyL7u5u2NraMkpuaWnJukD7aL85oylKtJeajfj/bV+gmKSGt7e3YG9vb6SSn43YfnNzA87OzoJS062gHO8toZv0u1wCserp6cHg4GBTymYkVkVFRRgSEoJdXV0CPwnVr1+/UKlUop+fH8eVl5fj2dmZqXRCxWxsbGSVbGtrMwtCo9EYJDslJYVl/KOtr6+zTy6XY2ZmJioUClbfpqYmkyAEOkFs/vg01Ybh4WEmZ1RUFKvrwsKCII7KT4RtbW2F6upq3ke3yZT99SinG9HR0QExMTHQ0NDAGjA6OmqQa3gTJnoJutJxcXFQUFDAypuZmfl3IMxVgt764OCAK3F5eQmenp582Pb2tlEcEdLJyYklPSIiAlZXV6G/v9+0aH3mRHNzM/ezpaUFz8/PUavV4v39PftoTNP0JL9UKmVe0Lin/2q12pCDOCGRSHjck9H0dHZ2xsjISFPkFBKTyENJaTTHxcVhREQEDg8PG5KRLygoCHt7e7G/vx/r6uoYTFRUFJ6ennLc2toax7m6umJ6ejrfNvqfn5+POp1OAEJQc/rqIULRUCIiiUQi7jeVd29vj8czDbaMjAzDnqurK1hcXOQnTVFS3qSkJNDpdLC7u8ttIV6Q8pJmfDaBYpJY0XCiw+FtAFFS+nagyUqAaHp+NNpDPhp0NFNoDwF4B0+5yGfG9n+EbP+Ir+0fA8L8oP8aY0WizyXixH+S93VmCQDafwGTo70hLNPNEwAAAABJRU5ErkJggg=="/>
+</svg>
