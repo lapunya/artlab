@@ -147,3 +147,31 @@
     width: 95%;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .projects__container {
+    padding-bottom: 45px;
+  }
+
+  .projects__title {
+    font-size: 32px;
+  }
+
+  .projects__text {
+    font-size: 22px;
+    width: 100%;
+  }
+
+  .projects__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects__item {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

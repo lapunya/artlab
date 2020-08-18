@@ -201,3 +201,21 @@
     width: 45%;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .tariffs__main-title {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .tariffs__main-item {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
